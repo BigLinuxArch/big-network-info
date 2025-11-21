@@ -1,10 +1,10 @@
 pkgname=big-network-info
-pkgver=$(date +%y.%m.%d)
-pkgrel=$(date +%H%M)
+pkgver=25.06.02
+pkgrel=1112
 arch=('any')
 license=('GPL')
 url="https://github.com/biglinux/$pkgname"
-source=("git+${url}.git")
+source=("git+${url}.git#branch=stable-2025-06-02_08-07")
 pkgdesc="Installs and removes BigLinux WebApps"
 depends=('libadwaita' 'python-gobject' 'python-netifaces' 'python-requests' 'python-reportlab' 'iproute2' 'arp-scan' 'xdg-utils')
 md5sums=(SKIP)
